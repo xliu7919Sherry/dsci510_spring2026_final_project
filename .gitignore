@@ -1,16 +1,20 @@
-# Environment variables
-.env
-
-# Python cache
+# Python cache files
 __pycache__/
 *.pyc
 
-# Jupyter checkpoints
+# Environment files
+.env
+.venv/
+venv/
+
+# Jupyter cache
 .ipynb_checkpoints/
 
-# Data and results
-data/
-results/
-
-# OS files
+# OS / editor files
 .DS_Store
+.idea/
+
+# Project data and generated outputs
+data/
+!data/.gitkeep
+results/
